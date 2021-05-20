@@ -24,7 +24,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-9_$hizw_rxi6u$j0w3mfh_r-p6^n2%52i@**cuv$9nil4u*3-*'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['landslideapi.herokuapp.com','127.0.0.1',
     'localhost']
