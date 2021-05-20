@@ -8,5 +8,5 @@ router = routers.DefaultRouter()
 router.register('images',views.imagesview,basename='Images')
 
 urlpatterns = [
-    path('',include(router.urls))
+    path('',include(router.urls)) 
 ]
