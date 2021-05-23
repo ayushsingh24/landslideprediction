@@ -4,4 +4,4 @@ from .models import images
 class imagesSerializers(serializers.ModelSerializer):
     class Meta:
         model = images
-        fields = '__all__'
+        fields = ('moisture','slope','output')
